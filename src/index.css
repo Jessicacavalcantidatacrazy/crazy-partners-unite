@@ -8,28 +8,28 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Datacrazy Brand Colors */
-    --background: 222 84% 4.9%;
-    --foreground: 0 0% 100%;
+    /* Datacrazy Brand Colors - Enhanced Contrast */
+    --background: 220 84% 3%;
+    --foreground: 0 0% 98%;
 
-    --card: 222 84% 4.9%;
-    --card-foreground: 0 0% 100%;
+    --card: 220 84% 5%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 222 84% 4.9%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 220 84% 5%;
+    --popover-foreground: 0 0% 98%;
 
     /* Datacrazy Primary - Blue */
-    --primary: 216 100% 60%;
+    --primary: 216 100% 65%;
     --primary-foreground: 0 0% 100%;
 
-    /* Datacrazy Secondary - Purple */
-    --secondary: 259 97% 64%;
+    /* Datacrazy Secondary - Darker Purple/Magenta */
+    --secondary: 259 95% 45%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 217 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 217 32.6% 15%;
+    --muted-foreground: 215 20.2% 70%;
 
-    --accent: 259 97% 64%;
+    --accent: 259 95% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -41,12 +41,12 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Custom Datacrazy Design Tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(216 100% 60%), hsl(259 97% 64%));
-    --gradient-vibrant: linear-gradient(135deg, hsl(216 100% 70%), hsl(259 100% 75%), hsl(315 100% 70%));
-    --gradient-secondary: linear-gradient(180deg, hsl(222 84% 4.9%), hsl(259 97% 20%));
-    --gradient-hero: linear-gradient(135deg, hsl(216 100% 60% / 0.9), hsl(259 97% 64% / 0.9));
-    --gradient-card: linear-gradient(135deg, hsl(217 32.6% 17.5% / 0.8), hsl(259 97% 20% / 0.6));
+    /* Custom Datacrazy Design Tokens - Enhanced Contrast */
+    --gradient-primary: linear-gradient(135deg, hsl(216 100% 65%), hsl(259 95% 45%));
+    --gradient-vibrant: linear-gradient(135deg, hsl(216 100% 70%), hsl(259 95% 60%), hsl(315 95% 55%));
+    --gradient-secondary: linear-gradient(180deg, hsl(220 84% 3%), hsl(259 95% 15%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 84% 3% / 0.85), hsl(259 95% 15% / 0.85));
+    --gradient-card: linear-gradient(135deg, hsl(217 32.6% 12% / 0.9), hsl(259 95% 20% / 0.8));
     
     --shadow-glow: 0 0 40px hsl(216 100% 60% / 0.3);
     --shadow-purple: 0 0 40px hsl(259 97% 64% / 0.3);
