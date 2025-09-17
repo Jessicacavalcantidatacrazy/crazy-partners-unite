@@ -43,6 +43,7 @@ All colors MUST be HSL.
 
     /* Custom Datacrazy Design Tokens */
     --gradient-primary: linear-gradient(135deg, hsl(216 100% 60%), hsl(259 97% 64%));
+    --gradient-vibrant: linear-gradient(135deg, hsl(216 100% 70%), hsl(259 100% 75%), hsl(315 100% 70%));
     --gradient-secondary: linear-gradient(180deg, hsl(222 84% 4.9%), hsl(259 97% 20%));
     --gradient-hero: linear-gradient(135deg, hsl(216 100% 60% / 0.9), hsl(259 97% 64% / 0.9));
     --gradient-card: linear-gradient(135deg, hsl(217 32.6% 17.5% / 0.8), hsl(259 97% 20% / 0.6));

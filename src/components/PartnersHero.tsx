@@ -26,7 +26,7 @@ export default function PartnersHero() {
         
         {/* Main heading */}
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-          <span className="bg-gradient-primary bg-clip-text text-transparent">
+          <span className="bg-gradient-vibrant bg-clip-text text-transparent">
             Partners
           </span>
           <br />
