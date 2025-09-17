@@ -10,7 +10,7 @@ export default function PartnersHero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
-      <div className="absolute inset-0 bg-gradient-hero opacity-95" />
+      <div className="absolute inset-0 bg-gradient-hero opacity-98" />
       
       {/* Floating elements */}
       <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full animate-float blur-xl" />
